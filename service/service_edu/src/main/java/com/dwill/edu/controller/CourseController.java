@@ -21,7 +21,7 @@ public class CourseController {
     @ApiOperation(value = "添加课程基本信息")
     @PostMapping("/addCourseInfo")
     public R addCourseInfo(@RequestBody CourseInfoVo courseInfoVo){
-
+        return null;
     }
 }
 
